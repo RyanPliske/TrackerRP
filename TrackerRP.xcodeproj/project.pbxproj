@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9EDEE121C34458600F592AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE111C34458600F592AC /* AppDelegate.swift */; };
+		F9EDEE141C34458600F592AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE131C34458600F592AC /* ViewController.swift */; };
+		F9EDEE171C34458600F592AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EDEE151C34458600F592AC /* Main.storyboard */; };
+		F9EDEE1A1C34458600F592AC /* TrackerRP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE181C34458600F592AC /* TrackerRP.xcdatamodeld */; };
+		F9EDEE1C1C34458600F592AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9EDEE1B1C34458600F592AC /* Assets.xcassets */; };
+		F9EDEE1F1C34458600F592AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EDEE1D1C34458600F592AC /* LaunchScreen.storyboard */; };
+		F9EDEE2A1C34458600F592AC /* TrackerRPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE291C34458600F592AC /* TrackerRPTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9EDEE261C34458600F592AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9EDEE061C34458600F592AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9EDEE0D1C34458600F592AC;
+			remoteInfo = TrackerRP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9EDEE0E1C34458600F592AC /* TrackerRP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackerRP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9EDEE111C34458600F592AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9EDEE131C34458600F592AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9EDEE161C34458600F592AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9EDEE191C34458600F592AC /* TrackerRP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackerRP.xcdatamodel; sourceTree = "<group>"; };
+		F9EDEE1B1C34458600F592AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9EDEE1E1C34458600F592AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9EDEE201C34458600F592AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9EDEE251C34458600F592AC /* TrackerRPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackerRPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9EDEE291C34458600F592AC /* TrackerRPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerRPTests.swift; sourceTree = "<group>"; };
+		F9EDEE2B1C34458600F592AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9EDEE0B1C34458600F592AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EDEE221C34458600F592AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9EDEE051C34458600F592AC = {
+			isa = PBXGroup;
+			children = (
+				F9EDEE101C34458600F592AC /* TrackerRP */,
+				F9EDEE281C34458600F592AC /* TrackerRPTests */,
+				F9EDEE0F1C34458600F592AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9EDEE0F1C34458600F592AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9EDEE0E1C34458600F592AC /* TrackerRP.app */,
+				F9EDEE251C34458600F592AC /* TrackerRPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9EDEE101C34458600F592AC /* TrackerRP */ = {
+			isa = PBXGroup;
+			children = (
+				F9EDEE111C34458600F592AC /* AppDelegate.swift */,
+				F9EDEE131C34458600F592AC /* ViewController.swift */,
+				F9EDEE151C34458600F592AC /* Main.storyboard */,
+				F9EDEE1B1C34458600F592AC /* Assets.xcassets */,
+				F9EDEE1D1C34458600F592AC /* LaunchScreen.storyboard */,
+				F9EDEE201C34458600F592AC /* Info.plist */,
+				F9EDEE181C34458600F592AC /* TrackerRP.xcdatamodeld */,
+			);
+			path = TrackerRP;
+			sourceTree = "<group>";
+		};
+		F9EDEE281C34458600F592AC /* TrackerRPTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9EDEE291C34458600F592AC /* TrackerRPTests.swift */,
+				F9EDEE2B1C34458600F592AC /* Info.plist */,
+			);
+			path = TrackerRPTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9EDEE0D1C34458600F592AC /* TrackerRP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9EDEE2E1C34458600F592AC /* Build configuration list for PBXNativeTarget "TrackerRP" */;
+			buildPhases = (
+				F9EDEE0A1C34458600F592AC /* Sources */,
+				F9EDEE0B1C34458600F592AC /* Frameworks */,
+				F9EDEE0C1C34458600F592AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackerRP;
+			productName = TrackerRP;
+			productReference = F9EDEE0E1C34458600F592AC /* TrackerRP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9EDEE241C34458600F592AC /* TrackerRPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9EDEE311C34458600F592AC /* Build configuration list for PBXNativeTarget "TrackerRPTests" */;
+			buildPhases = (
+				F9EDEE211C34458600F592AC /* Sources */,
+				F9EDEE221C34458600F592AC /* Frameworks */,
+				F9EDEE231C34458600F592AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9EDEE271C34458600F592AC /* PBXTargetDependency */,
+			);
+			name = TrackerRPTests;
+			productName = TrackerRPTests;
+			productReference = F9EDEE251C34458600F592AC /* TrackerRPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9EDEE061C34458600F592AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ryan Pliske";
+				TargetAttributes = {
+					F9EDEE0D1C34458600F592AC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F9EDEE241C34458600F592AC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F9EDEE0D1C34458600F592AC;
+					};
+				};
+			};
+			buildConfigurationList = F9EDEE091C34458600F592AC /* Build configuration list for PBXProject "TrackerRP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9EDEE051C34458600F592AC;
+			productRefGroup = F9EDEE0F1C34458600F592AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9EDEE0D1C34458600F592AC /* TrackerRP */,
+				F9EDEE241C34458600F592AC /* TrackerRPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9EDEE0C1C34458600F592AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EDEE1F1C34458600F592AC /* LaunchScreen.storyboard in Resources */,
+				F9EDEE1C1C34458600F592AC /* Assets.xcassets in Resources */,
+				F9EDEE171C34458600F592AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EDEE231C34458600F592AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9EDEE0A1C34458600F592AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EDEE1A1C34458600F592AC /* TrackerRP.xcdatamodeld in Sources */,
+				F9EDEE141C34458600F592AC /* ViewController.swift in Sources */,
+				F9EDEE121C34458600F592AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9EDEE211C34458600F592AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EDEE2A1C34458600F592AC /* TrackerRPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9EDEE271C34458600F592AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9EDEE0D1C34458600F592AC /* TrackerRP */;
+			targetProxy = F9EDEE261C34458600F592AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9EDEE151C34458600F592AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9EDEE161C34458600F592AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9EDEE1D1C34458600F592AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9EDEE1E1C34458600F592AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9EDEE2C1C34458600F592AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9EDEE2D1C34458600F592AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9EDEE2F1C34458600F592AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrackerRP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RyanPliske.TrackerRP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9EDEE301C34458600F592AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrackerRP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RyanPliske.TrackerRP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9EDEE321C34458600F592AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrackerRPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RyanPliske.TrackerRPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackerRP.app/TrackerRP";
+			};
+			name = Debug;
+		};
+		F9EDEE331C34458600F592AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrackerRPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RyanPliske.TrackerRPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackerRP.app/TrackerRP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9EDEE091C34458600F592AC /* Build configuration list for PBXProject "TrackerRP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EDEE2C1C34458600F592AC /* Debug */,
+				F9EDEE2D1C34458600F592AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9EDEE2E1C34458600F592AC /* Build configuration list for PBXNativeTarget "TrackerRP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EDEE2F1C34458600F592AC /* Debug */,
+				F9EDEE301C34458600F592AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9EDEE311C34458600F592AC /* Build configuration list for PBXNativeTarget "TrackerRPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9EDEE321C34458600F592AC /* Debug */,
+				F9EDEE331C34458600F592AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9EDEE181C34458600F592AC /* TrackerRP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9EDEE191C34458600F592AC /* TrackerRP.xcdatamodel */,
+			);
+			currentVersion = F9EDEE191C34458600F592AC /* TrackerRP.xcdatamodel */;
+			path = TrackerRP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F9EDEE061C34458600F592AC /* Project object */;
+}
