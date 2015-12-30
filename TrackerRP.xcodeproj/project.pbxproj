@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		F9EDEE121C34458600F592AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE111C34458600F592AC /* AppDelegate.swift */; };
-		F9EDEE141C34458600F592AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE131C34458600F592AC /* ViewController.swift */; };
+		F9EDEE141C34458600F592AC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE131C34458600F592AC /* MainViewController.swift */; };
 		F9EDEE171C34458600F592AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EDEE151C34458600F592AC /* Main.storyboard */; };
 		F9EDEE1A1C34458600F592AC /* TrackerRP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE181C34458600F592AC /* TrackerRP.xcdatamodeld */; };
 		F9EDEE1C1C34458600F592AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9EDEE1B1C34458600F592AC /* Assets.xcassets */; };
 		F9EDEE1F1C34458600F592AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EDEE1D1C34458600F592AC /* LaunchScreen.storyboard */; };
-		F9EDEE2A1C34458600F592AC /* TrackerRPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE291C34458600F592AC /* TrackerRPTests.swift */; };
+		F9EDEE351C34460500F592AC /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE341C34460500F592AC /* CoreDataStack.swift */; };
+		F9EDEE381C34473400F592AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE371C34473400F592AC /* main.swift */; };
+		F9EDEE3A1C34475300F592AC /* TestAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE391C34475300F592AC /* TestAppDelegate.swift */; };
+		F9EDEE3C1C346ACF00F592AC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE3B1C346ACF00F592AC /* MainView.swift */; };
+		F9EDEE3E1C3470F800F592AC /* MainNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE3D1C3470F800F592AC /* MainNavigationBar.swift */; };
+		F9EDEE401C34798200F592AC /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE3F1C34798200F592AC /* MainPresenter.swift */; };
+		F9EDEE421C347A0B00F592AC /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE411C347A0B00F592AC /* MainModel.swift */; };
+		F9EDEE441C3488D600F592AC /* MainPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EDEE431C3488D600F592AC /* MainPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,15 +36,22 @@
 /* Begin PBXFileReference section */
 		F9EDEE0E1C34458600F592AC /* TrackerRP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackerRP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9EDEE111C34458600F592AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9EDEE131C34458600F592AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9EDEE131C34458600F592AC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F9EDEE161C34458600F592AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9EDEE191C34458600F592AC /* TrackerRP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackerRP.xcdatamodel; sourceTree = "<group>"; };
 		F9EDEE1B1C34458600F592AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9EDEE1E1C34458600F592AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9EDEE201C34458600F592AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9EDEE251C34458600F592AC /* TrackerRPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackerRPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9EDEE291C34458600F592AC /* TrackerRPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerRPTests.swift; sourceTree = "<group>"; };
 		F9EDEE2B1C34458600F592AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9EDEE341C34460500F592AC /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		F9EDEE371C34473400F592AC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F9EDEE391C34475300F592AC /* TestAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAppDelegate.swift; sourceTree = "<group>"; };
+		F9EDEE3B1C346ACF00F592AC /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F9EDEE3D1C3470F800F592AC /* MainNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationBar.swift; sourceTree = "<group>"; };
+		F9EDEE3F1C34798200F592AC /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		F9EDEE411C347A0B00F592AC /* MainModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		F9EDEE431C3488D600F592AC /* MainPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,7 @@
 		F9EDEE051C34458600F592AC = {
 			isa = PBXGroup;
 			children = (
+				F9EDEE181C34458600F592AC /* TrackerRP.xcdatamodeld */,
 				F9EDEE101C34458600F592AC /* TrackerRP */,
 				F9EDEE281C34458600F592AC /* TrackerRPTests */,
 				F9EDEE0F1C34458600F592AC /* Products */,
@@ -79,13 +94,14 @@
 		F9EDEE101C34458600F592AC /* TrackerRP */ = {
 			isa = PBXGroup;
 			children = (
-				F9EDEE111C34458600F592AC /* AppDelegate.swift */,
-				F9EDEE131C34458600F592AC /* ViewController.swift */,
-				F9EDEE151C34458600F592AC /* Main.storyboard */,
-				F9EDEE1B1C34458600F592AC /* Assets.xcassets */,
-				F9EDEE1D1C34458600F592AC /* LaunchScreen.storyboard */,
-				F9EDEE201C34458600F592AC /* Info.plist */,
-				F9EDEE181C34458600F592AC /* TrackerRP.xcdatamodeld */,
+				F9EDEE131C34458600F592AC /* MainViewController.swift */,
+				F9EDEE3F1C34798200F592AC /* MainPresenter.swift */,
+				F9EDEE431C3488D600F592AC /* MainPresenterTests.swift */,
+				F9EDEE411C347A0B00F592AC /* MainModel.swift */,
+				F9EDEE3B1C346ACF00F592AC /* MainView.swift */,
+				F9EDEE3D1C3470F800F592AC /* MainNavigationBar.swift */,
+				F9EDEE341C34460500F592AC /* CoreDataStack.swift */,
+				F9EDEE361C3446EE00F592AC /* Supporting Files */,
 			);
 			path = TrackerRP;
 			sourceTree = "<group>";
@@ -93,10 +109,23 @@
 		F9EDEE281C34458600F592AC /* TrackerRPTests */ = {
 			isa = PBXGroup;
 			children = (
-				F9EDEE291C34458600F592AC /* TrackerRPTests.swift */,
 				F9EDEE2B1C34458600F592AC /* Info.plist */,
 			);
 			path = TrackerRPTests;
+			sourceTree = "<group>";
+		};
+		F9EDEE361C3446EE00F592AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9EDEE151C34458600F592AC /* Main.storyboard */,
+				F9EDEE371C34473400F592AC /* main.swift */,
+				F9EDEE111C34458600F592AC /* AppDelegate.swift */,
+				F9EDEE391C34475300F592AC /* TestAppDelegate.swift */,
+				F9EDEE201C34458600F592AC /* Info.plist */,
+				F9EDEE1B1C34458600F592AC /* Assets.xcassets */,
+				F9EDEE1D1C34458600F592AC /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +230,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9EDEE1A1C34458600F592AC /* TrackerRP.xcdatamodeld in Sources */,
-				F9EDEE141C34458600F592AC /* ViewController.swift in Sources */,
+				F9EDEE3C1C346ACF00F592AC /* MainView.swift in Sources */,
+				F9EDEE381C34473400F592AC /* main.swift in Sources */,
+				F9EDEE3E1C3470F800F592AC /* MainNavigationBar.swift in Sources */,
+				F9EDEE3A1C34475300F592AC /* TestAppDelegate.swift in Sources */,
+				F9EDEE141C34458600F592AC /* MainViewController.swift in Sources */,
 				F9EDEE121C34458600F592AC /* AppDelegate.swift in Sources */,
+				F9EDEE351C34460500F592AC /* CoreDataStack.swift in Sources */,
+				F9EDEE421C347A0B00F592AC /* MainModel.swift in Sources */,
+				F9EDEE401C34798200F592AC /* MainPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9EDEE2A1C34458600F592AC /* TrackerRPTests.swift in Sources */,
+				F9EDEE441C3488D600F592AC /* MainPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TrackerRP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RyanPliske.TrackerRP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -341,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TrackerRP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RyanPliske.TrackerRP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,10 +389,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TrackerRPTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RyanPliske.TrackerRPTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackerRP.app/TrackerRP";
 			};
 			name = Debug;
@@ -363,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TrackerRPTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RyanPliske.TrackerRPTests;
@@ -408,7 +449,8 @@
 				F9EDEE191C34458600F592AC /* TrackerRP.xcdatamodel */,
 			);
 			currentVersion = F9EDEE191C34458600F592AC /* TrackerRP.xcdatamodel */;
-			path = TrackerRP.xcdatamodeld;
+			name = TrackerRP.xcdatamodeld;
+			path = TrackerRP/TrackerRP.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
